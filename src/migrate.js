@@ -1,3 +1,5 @@
+// from https://github.com/react-page/react-page/blob/b09b551d1469ad0db4c2ef9a299be886251c554a/packages/plugins/content/slate/src/migrations/v004.ts
+
 const { isEmpty } = require('lodash');
 
 const migrateTextNode = oldNode => {
